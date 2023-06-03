@@ -24,7 +24,7 @@ import logging
 import os
 from pathlib import Path
 from typing import Callable, Dict, List, Tuple, Type, Union
-
+import tensorrt
 import numpy as np
 import torch
 from transformers import (
