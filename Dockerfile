@@ -11,6 +11,7 @@ RUN apt-get update && \
 RUN pip3 install --upgrade pip
 # RUN apt-get clean
 
+# if doing manaully, UID and GUID steps are not required
 ARG UID=1000
 ARG GID=1000
 RUN addgroup --gid $GID ubuntu && \
